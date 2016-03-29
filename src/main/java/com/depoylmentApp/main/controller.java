@@ -32,7 +32,7 @@ public class controller extends HttpServlet {
 		
 		String hostname = Inet4Address.getLocalHost().getHostName();
 		String ipAddress = Inet4Address.getLocalHost().getHostAddress();
-		String appVersion = "2.4";
+		String appVersion = "2.5";
 		response.getWriter().write("<html><body> App Version = " + appVersion 
 				+"</br> Hostname = " + hostname 
 				+"</br> IP = " + ipAddress 
